@@ -1,7 +1,6 @@
 <img src="logo_site.png" width="120" align="center" />
 
-
-# ⚡ FuseMixer — x402 Fuse Mixer
+# ⚡ FuseMixer — First x402 Fuse Mixer on Solana
 
 > “Obfuscation is not chaos — it’s *order* you can’t predict.”
 
@@ -9,7 +8,7 @@
 
 ## 🧬 What is VantaX402?
 
-VantaX402 is a **simulated fair-exchange fuse mixer**, built on the conceptual framework of  
+Fuse Mixer X402 is a **simulated fair-exchange fuse mixer**, built on the conceptual framework of  
 the **x402 protocol** — a payment-required system where commitments and settlements form a  
 trust-minimized flow: **Commit → Delay → Reveal → Settle**.
 
@@ -76,8 +75,8 @@ testing. All data is ephemeral and stored only in memory.
 ## 🚀 Quick Start
 
 ```bash
-git clone https://github.com/yourname/vantax402.git
-cd vantax402
+git clone https://github.com/yourname/fusemixer402.git
+cd fusemixer402
 pnpm install
 pnpm dev
 ```
@@ -149,7 +148,7 @@ Final step generates the PoRD — signed with ed25519.
   "reveal": { "hops": ["..."], "delay_actual": "59m02s" },
   "flags": { "burners_closed": true },
   "signatures": [
-    { "by": "VantaX402-demo", "alg": "ed25519", "sig": "base64" }
+    { "by": "fusemixer402-demo", "alg": "ed25519", "sig": "base64" }
   ],
   "disclaimer": "Demo-only proof. Unlinkability is probabilistic."
 }
@@ -201,7 +200,7 @@ The verifier checks:
 
 ## ⚖️ License
 
-MIT © 2025 [x402 Fuse Mimer](https://fusemixer.dev)
+MIT © 2025 [x402 Fuse Mixer](https://fusemixer.dev)
 Built with ☕, entropy, and degen engineering spirit.
 
 ---
