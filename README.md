@@ -1,7 +1,7 @@
 <img src="logo_site.png" width="120" align="center" />
 
 
-# ⚡ FuseMixer — x402 Fair-Exchange Mixer
+# ⚡ FuseMixer — x402 Fuse Mixer
 
 > “Obfuscation is not chaos — it’s *order* you can’t predict.”
 
