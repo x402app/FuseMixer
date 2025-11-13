@@ -1,0 +1,12 @@
+{
+  "name": "@vantax402/verifier",
+  "version": "0.1.0",
+  "private": true,
+  "main": "./verifyPoRDX402.ts",
+  "types": "./verifyPoRDX402.ts",
+  "scripts": {
+    "build": "tsc",
+    "verify": "node dist/verifyPoRDX402.js"
+  }
+}
+

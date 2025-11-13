@@ -1,0 +1,19 @@
+{
+  "name": "vantax402",
+  "private": true,
+  "workspaces": [
+    "apps/*",
+    "apps/packages/*"
+  ],
+  "scripts": {
+    "dev": "pnpm --filter @vantax402/web dev",
+    "build": "turbo run build",
+    "start": "turbo run start"
+  },
+  "devDependencies": {
+    "typescript": "^5.3.3",
+    "turbo": "^1.10.0",
+    "pnpm": "^9.0.0"
+  }
+}
+
